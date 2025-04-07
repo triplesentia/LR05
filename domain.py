@@ -50,7 +50,7 @@ def generate_rdf_block(relation1, subtype1, relation2, subtype2, position, rever
     Generates an RDFF block for the given relations and subtypes. If reverse is True,
     the relations and subtypes are swapped, and the position is reversed.
     """
-    # Adjust parameters based on the reverse flag
+    # Adjust parameters on the reverse flag
     if reverse:
         relation1, subtype1, relation2, subtype2 = relation2, subtype2, relation1, subtype1
         left_word = "FIRST_CHILD" if position == "after" else "SECOND_CHILD"
