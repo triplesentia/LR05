@@ -133,7 +133,7 @@ def merge_files(file1_path, file2_path, output_file_path):
         print(f"Files merged successfully into {output_file_path}")
 
     except FileNotFoundError as e:
-        print(f"Error: {e}")
+        print(f"File error: {e}")
     except Exception as e:
         print(f"An error occurred: {e}")
 
