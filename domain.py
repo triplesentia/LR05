@@ -47,7 +47,7 @@ def clean_pattern(pattern):
 
 def generate_rdf_block(relation1, subtype1, relation2, subtype2, position, reverse=False):
     """
-    Generates an RDF block for the given relations and subtypes. If reverse is True,
+    Generates an RDFF block for the given relations and subtypes. If reverse is True,
     the relations and subtypes are swapped, and the position is reversed.
     """
     # Adjust parameters based on the reverse flag
