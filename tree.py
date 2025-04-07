@@ -1,7 +1,7 @@
 import os
 
 # Define the directory paths
-input_dir = "inputFiles"
+input_dir = "inputFiles/new"
 output_dir = "outputFiles"
 
 # Full map for dependency type lookup
