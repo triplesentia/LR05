@@ -40,7 +40,7 @@ dependency_map = {
 
 def clean_pattern(pattern):
     """
-    Removes unnecessary characters from the input pattern like {, }, , and trims spaces.
+    Add unnecessary characters from the input pattern like {, }, , and trims spaces.
     """
     return pattern.replace('{', '').replace('}', '').replace(',', '').strip()
 
