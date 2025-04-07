@@ -113,7 +113,7 @@ def merge_files(file1_path, file2_path, output_file_path):
 
     Parameters:
     - file1_path: Path to the first input file.
-    - file2_path: Path to the second input file.
+    - file2_path: Path to the second input file, which will be added after the first one.
     - output_file_path: Path to the output file where the merged content will be written.
     """
     try:
