@@ -10,7 +10,7 @@ def generate_sentence_rdf(sentence):
 
     # Loop through each word in the list and generate corresponding RDF
     for i, word in enumerate(word_list):
-        word_id = i + 1  # Simple ID to track each word
+        word_id = i + 1  # Simple ID to track each word and number
         sentenceword_ref = f":sentenceword_{word_id}"
         sentenceword_references.append(sentenceword_ref)
 
