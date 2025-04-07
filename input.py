@@ -62,5 +62,8 @@ sentence = "she always"
 # Call the function to append the generated RDF to the existing file
 append_to_existing_rdf(existing_rdf, sentence, output_rdf)
 
+output_rdf = "D:/Uni/Trees/Exported/2.ttl"
+append_to_existing_rdf(existing_rdf, sentence, output_rdf)
+
 output_rdf = "D:/Uni/Trees/Exported/1.ttl"
 append_to_existing_rdf(existing_rdf, sentence, output_rdf)
