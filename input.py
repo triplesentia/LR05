@@ -57,7 +57,7 @@ existing_rdf = "outputFiles/output04.ttl"
 output_rdf = "generated/1.ttl"
 
 # The sentence (input) to form RDF objects
-sentence = "she always"
+sentence = "she never"
 
 # Call the function to append the generated RDF to the existing file
 append_to_existing_rdf(existing_rdf, sentence, output_rdf)
