@@ -101,7 +101,7 @@ def generate_ttl_file(input_file, output_file):
 
     treewords_rdf = []
     depwords_rdf = []
-    treeword_ids = []  # To collect all treeword IDs for the T object
+    treeword_ids = []
 
     # Process each line in the input file
     for line in lines:
