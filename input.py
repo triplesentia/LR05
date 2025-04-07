@@ -51,7 +51,7 @@ def append_to_existing_rdf(existing_rdf_path, sentence, output_rdf_path):
 
 
 # Specify the path to the existing RDF file
-existing_rdf = "outputFiles/output03.ttl"
+existing_rdf = "outputFiles/output04.ttl"
 
 # Specify the path where the updated RDF will be written
 output_rdf = "generated/1.ttl"
