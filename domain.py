@@ -154,5 +154,5 @@ output_file = 'domain.ttl'
 
 merge_files(file1, file2, output_file)
 
-output_file = 'D:/Uni/Trees/Exported/domain.ttl'
+output_file = 'D:/Uni/Trees/Exported/domain1.ttl'
 merge_files(file1, file2, output_file)
